@@ -14,7 +14,7 @@ data.push({ id: doc.id, ... doc.data()});
 return data;
 }
 
-const page = () => {
+const Page = () => {
     const [blogData, setBlogData] = useState([]);
 
     useEffect(() => {
@@ -39,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
